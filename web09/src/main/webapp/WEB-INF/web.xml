@@ -18,6 +18,16 @@
 		<param-name>userPwd</param-name>
 		<param-value>0321</param-value>
 	</context-param>
+	
+	<error-page>
+	<error-code>404</error-code>
+	<location>404.jsp</location>
+	</error-page>
+	
+	<error-page>
+	<error-code>500</error-code>
+	<location>error.jsp</location>
+	</error-page>
 
 
 </web-app>
